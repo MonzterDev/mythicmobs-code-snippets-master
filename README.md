@@ -11,7 +11,6 @@
 </p>
 
 **[`Extension Page`](https://marketplace.visualstudio.com/items?itemName=Monzter.mythicmobs-code-snippets&ssr=false#overview)**
-**[`Direct Install`](vscode:extension/Monzter.mythicmobs-code-snippets)**
 
 **Code snippets version [`1.0.5`](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
 

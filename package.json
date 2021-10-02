@@ -2,7 +2,7 @@
     "name": "mythicmobs-code-snippets",
     "displayName": "MythicMobs Code Snippets",
     "description": "Code snippets for easy mob creation with MythicMobs Spigot Plugin",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "icon": "assets/icon.jpg",
     "galleryBanner": {
         "color": "#3F51B5",

@@ -17,6 +17,9 @@ This extension simplifies the process of creating MythicMobs by providing code s
 ## Credit
 
 Based on [betonquest-code-snippets](https://github.com/BetonQuest/betonquest-code-snippets)
+Authors of original: Jonas Blocher, SaltyAimbOtter, Wolf2323
+Original License: GPLv3
+Modifications have been made.
 
 ## Features
 
@@ -43,7 +46,7 @@ The highlighted areas are ones which you can either fill in or select an option 
 
 ## Release Notes
 
-### 1.0.5
+### 1.0.6
 
 Updated links.
 

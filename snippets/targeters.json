@@ -1,0 +1,319 @@
+{
+	"self": {
+		"prefix": ["@self"],
+		"body": ["@self"]
+	},
+	"target": {
+		"prefix": ["@target"],
+		"body": ["@target"]
+	},
+
+	"trigger": {
+		"prefix": ["@trigger"],
+		"body": ["@trigger"]
+	},
+
+	"nearestPlayer": {
+		"prefix": ["@nearestPlayer"],
+		"body": ["@nearestPlayer{r=${1:number}}"]
+	},
+
+	"wolfOwner": {
+		"prefix": ["@wolfOwner"],
+		"body": ["@wolfOwner"]
+	},
+
+	"owner": {
+		"prefix": ["@owner"],
+		"body": ["@owner"]
+	},
+
+	"mount": {
+		"prefix": ["@mount"],
+		"body": ["@mount"]
+	},
+
+	"parent": {
+		"prefix": ["@parent"],
+		"body": ["@parent"]
+	},
+
+	"children": {
+		"prefix": ["@children"],
+		"body": ["@children"]
+	},
+
+	"passenger": {
+		"prefix": ["@passenger"],
+		"body": ["@passenger"]
+	},
+
+	"spawnLocation": {
+		"prefix": ["@spawnLocation"],
+		"body": ["@spawnLocation"]
+	},
+
+	"casterSpawnLocation": {
+		"prefix": ["@casterSpawnLocation"],
+		"body": ["@casterSpawnLocation"]
+	},
+
+	"playerByName": {
+		"prefix": ["@playerByName"],
+		"body": ["@playerByName{name=${1:name}}"]
+	},
+
+	"UniqueIdentifier": {
+		"prefix": ["@UniqueIdentifier"],
+		"body": ["@UniqueIdentifier{u=${1:UUID}}"]
+	},
+
+	"Vehicle": {
+		"prefix": ["@Vehicle"],
+		"body": ["@Vehicle"]
+	},
+
+	"LivingInCone": {
+		"prefix": ["@LivingInCone"],
+		"body": ["@LivingInCone{a=${1:angle(90.0)};r=${2:radius(16.0)};rot=${3:rotation(0.0)}}"]
+	},
+
+	"LivingInWorld": {
+		"prefix": ["@LivingInWorld"],
+		"body": ["@LivingInWorld"]
+	},
+
+	"PlayersInRadius": {
+		"prefix": ["@PlayersInRadius"],
+		"body": ["@PlayersInRadius{r=${1:radius(10)}}"]
+	},
+
+	"MobsInRadius": {
+		"prefix": ["@MobsInRadius"],
+		"body": ["@MobsInRadius{r=${1:radius(10)};types=${2:mobID(UNDEAD_SKELETON2,UNDEAD_ARCHER3)}}"]
+	},
+
+	"LivingEntitiesInRadius": {
+		"prefix": ["@LivingEntitiesInRadius"],
+		"body": ["@LivingEntitiesInRadius{r=${1:radius(10)}}"]
+	},
+
+	"PlayersInWorld": {
+		"prefix": ["@PlayersInWorld"],
+		"body": ["@PlayersInWorld"]
+	},
+
+	"PlayersOnServer": {
+		"prefix": ["@PlayersOnServer"],
+		"body": ["@PlayersOnServer"]
+	},
+
+	"PlayersInRing": {
+		"prefix": ["@PlayersInRing"],
+		"body": ["@PlayersInRing{min=${1:min-radius(5)};max=${2:max-radius(10)}}"]
+	},
+
+	"PlayersNearOrigin": {
+		"prefix": ["@PlayersNearOrigin"],
+		"body": ["@PlayersNearOrigin{r=${1:radius(10)}}"]
+	},
+
+	"MobsNearOrigin": {
+		"prefix": ["@MobsNearOrigin"],
+		"body": ["@MobsNearOrigin{r=${1:radius(5)};t=${2:mobID(UNDEAD_SKELETON2,UNDEAD_ARCHER3)}}"]
+	},
+
+	"EntitiesNearOrigin": {
+		"prefix": ["@EntitiesNearOrigin"],
+		"body": ["@EntitiesNearOrigin{r=${1:radius(10)}}"]
+	},
+
+	"PlayersNearTargetLocation": {
+		"prefix": ["@PlayersNearTargetLocation"],
+		"body": ["@PlayersNearTargetLocation{r=${1:radius(10)}}"]
+	},
+
+	"Siblings": {
+		"prefix": ["@Siblings"],
+		"body": ["@Siblings"]
+	},
+
+	"TargetedTarget": {
+		"prefix": ["@TargetedTarget"],
+		"body": ["@TargetedTarget"]
+	},
+
+	"ItemsNearOrigin": {
+		"prefix": ["@ItemsNearOrigin"],
+		"body": ["@ItemsNearOrigin"]
+	},
+
+	"ItemsInRadius": {
+		"prefix": ["@ItemsInRadius"],
+		"body": ["@ItemsInRadius{r=${1:radius(10)}}"]
+	},
+
+	"RandomThreatTarget": {
+		"prefix": ["@RandomThreatTarget"],
+		"body": ["@RandomThreatTarget"]
+	},
+
+	"ThreatTable": {
+		"prefix": ["@ThreatTable"],
+		"body": ["@ThreatTable"]
+	},
+
+	"ThreatTablePlayers": {
+		"prefix": ["@ThreatTablePlayers"],
+		"body": ["@ThreatTablePlayers"]
+	},
+
+	"RTTL": {
+		"prefix": ["@RTTL"],
+		"body": ["@RTTL"]
+	},
+
+	"SelfLocation": {
+		"prefix": ["@SelfLocation"],
+		"body": ["@SelfLocation${1|{y=10.0},{y=yOffset(10.0)}, |}"]
+	},
+
+	"Forward": {
+		"prefix": ["@Forward"],
+		"body": ["@Forward{f=${1:amountOfBlocksForward(10)};y=${2:yOffset(10.0)};sideOffset=${3:sideOffset(15.0)}}"]
+	},
+
+	"ForwardWall": {
+		"prefix": ["@ForwardWall"],
+		"body": ["@ForwardWall{f=${1:amountOfBlocksForward(10)};y=${2:yOffset(10.0)};width=${3:width(15)};height=${4:height(15)}}"]
+	},
+
+	"TargetLocation": {
+		"prefix": ["@TargetLocation"],
+		"body": ["@TargetLocation"]
+	},
+
+	"TriggerLocation": {
+		"prefix": ["@TriggerLocation"],
+		"body": ["@TriggerLocation"]
+	},
+
+	"Location": {
+		"prefix": ["@Location"],
+		"body": ["@Location{c=${1:x(1250.5)},${2:y(225.25)},${3:z(2133.5)},${4:yaw(10.5)},${5:pitch(90.0)}}"]
+	},
+
+	"Origin": {
+		"prefix": ["@Origin"],
+		"body": ["@Origin{xoffset=${1:xoffset(0)};yoffset=${2:yoffset(10.0)};zoffset=${3:zoffset(15.5)}}"]
+	},
+
+	"Spawner": {
+		"prefix": ["@Spawner"],
+		"body": ["@Spawner{s=${1:spawnerName(ZOMBIE_SPAWNER2)}}"]
+	},
+
+	"ObstructingBlock": {
+		"prefix": ["@ObstructingBlock"],
+		"body": ["@ObstructingBlock"]
+	},
+
+	"TrackedFromLocation": {
+		"prefix": ["@TrackedFromLocation"],
+		"body": ["@TrackedFromLocation"]
+	},
+
+	"NearestStructure": {
+		"prefix": ["@NearestStructure"],
+		"body": ["@NearestStructure"]
+	},
+
+	"PlayerLocationsInRadius": {
+		"prefix": ["@PlayerLocationsInRadius"],
+		"body": ["@PlayerLocationsInRadius{r=${1:radius(10)}}"]
+	},
+
+	"Ring": {
+		"prefix": ["@Ring"],
+		"body": ["@Ring{radius=${1:10};points=${2:5};yoffset=${3:15.5}}"]
+	},
+
+	"Cone": {
+		"prefix": ["@Cone"],
+		"body": ["@Cone{angle=${1:10};points=${2:5};range=${3:15};rotation=${4:90};yoffset=${5:5.5}}"]
+	},
+
+	"EntitiesInCone": {
+		"prefix": ["@EntitiesInCone"],
+		"body": ["@EntitiesInCone{angle=${1:90};range=${2:5};rotation=${3:60}}"]
+	},
+
+	"Sphere": {
+		"prefix": ["@Sphere"],
+		"body": ["@Sphere{radius=${1:10};points=${2:5};yoffset=${3:15.5}}"]
+	},
+
+	"TargetedLocation": {
+		"prefix": ["@TargetedLocation"],
+		"body": ["@TargetedLocation"]
+	},
+
+	"None": {
+		"prefix": ["@None"],
+		"body": ["@None"]
+	},
+
+	"Line": {
+		"prefix": ["@Line"],
+		"body": ["@Line{radius=${1:10};fromorigin=${2:true/false}}"]
+	},
+
+	"EntitiesInLine": {
+		"prefix": ["@EntitiesInLine"],
+		"body": ["@EntitiesInLine{r=${1:radius(10)};fo=${2:fromorigin(true/false)}}"]
+	},
+
+	"LivingNearTargetLocation": {
+		"prefix": ["@LivingNearTargetLocation"],
+		"body": ["@LivingNearTargetLocation{radius=${1:10}}"]
+	},
+
+	"RLNTE": {
+		"prefix": ["@RLNTE"],
+		"body": ["@RLNTE{a=${1:amountOfLocations(10)};r=${2:radius(15)};s=${3:spaceBetweenLocation(5)};minr=${4:minRadius(20)}}"]
+	},
+
+	"FloorOfTargets": {
+		"prefix": ["@FloorOfTargets"],
+		"body": ["@FloorOfTargets"]
+	},
+
+	"LocationsOfTargets": {
+		"prefix": ["@LocationsOfTargets"],
+		"body": ["@LocationsOfTargets"]
+	},
+
+	"BlocksInRadius": {
+		"prefix": ["@BlocksInRadius"],
+		"body": ["@BlocksInRadius{radius=${1:10};radiusy=${2:15};noise=${3:5};shape=${4:sphere/cube};onlyair=${5:true/false};noair=${6:true/false}}"]
+	},
+
+	"BlocksInChunk": {
+		"prefix": ["@BlocksInChunk"],
+		"body": ["@BlocksInChunk{noair=${1:true/false};onlyair=${2:true/false};nearorigin=${3:true/false}}"]
+	},
+
+	"BlocksNearOrigin": {
+		"prefix": ["@BlocksNearOrigin"],
+		"body": ["@BlocksNearOrigin{radius=${1:10};radiusy=${2:15};noise=${3:5};shape=${4:sphere/cube};onlyair=${5:true/false};noair=${6:true/false}}"]
+	},
+
+	"ignore": {
+		"prefix": [";ignore"],
+		"body": [";ignore=${1|self,animals,creative,creatures,flyingMobs,monsters,NPCs,players,sameFaction,spectators,vanilla,waterMobs|}"]
+	},
+	"target2": {
+		"prefix": [";target"],
+		"body": [";target=${1|self,animals,creative,creatures,flyingMobs,monsters,NPCs,players,sameFaction,spectators,vanilla,waterMobs|}"]
+	}  
+}

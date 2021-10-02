@@ -1,0 +1,166 @@
+{
+	"onCombat": {
+		"prefix": ["~onCombat"],
+		"body": ["~onCombat"]
+	},
+	"onAttack": {
+		"prefix": ["~onAttack"],
+		"body": ["~onAttack"]
+	},
+	"onDamaged": {
+		"prefix": ["~onDamaged"],
+		"body": ["~onDamaged"]
+	},
+	"onSpawn": {
+		"prefix": ["~onSpawn"],
+		"body": ["~onSpawn"]
+	},
+	"onDespawn": {
+		"prefix": ["~onDespawn"],
+		"body": ["~onDespawn"]
+	},
+	"onFirstSpawn": {
+		"prefix": ["~onFirstSpawn"],
+		"body": ["~onFirstSpawn"]
+	},
+	"onDeath": {
+		"prefix": ["~onDeath"],
+		"body": ["~onDeath"]
+	},
+	"onTimer": {
+		"prefix": ["~onTimer"],
+		"body": ["~onTimer:${1:intervalInTicks}"]
+	},
+	"onInteract": {
+		"prefix": ["~onInteract"],
+		"body": ["~onInteract"]
+	},
+	"onKillPlayer": {
+		"prefix": ["~onKillPlayer"],
+		"body": ["~onKillPlayer"]
+	},
+	"onPlayerDeath": {
+		"prefix": ["~onPlayerDeath"],
+		"body": ["~onPlayerDeath"]
+	},
+	"onEnterCombat": {
+		"prefix": ["~onEnterCombat"],
+		"body": ["~onEnterCombat"]
+	},
+	"onDropCombat": {
+		"prefix": ["~onDropCombat"],
+		"body": ["~onDropCombat"]
+	},
+	"onChangeTarget": {
+		"prefix": ["~onChangeTarget"],
+		"body": ["~onChangeTarget"]
+	},
+	"onExplode": {
+		"prefix": ["~onExplode"],
+		"body": ["~onExplode"]
+	},
+	"onTeleport": {
+		"prefix": ["~onTeleport"],
+		"body": ["~onTeleport"]
+	},
+	"onSignal": {
+		"prefix": ["~onSignal"],
+		"body": ["~onSignal"]
+	},
+	"onSignal:SIGNAL": {
+		"prefix": ["~onSignal:"],
+		"body": ["~onSignal:${1:SIGNAL}"]
+	},
+	"onShoot": {
+		"prefix": ["~onShoot"],
+		"body": ["~onShoot"]
+	},
+	"onBlockBreak": {
+		"prefix": ["~onBlockBreak"],
+		"body": ["~onBlockBreak"]
+	},
+	"onBlockPlace": {
+		"prefix": ["~onBlockPlace"],
+		"body": ["~onBlockPlace"]
+	},
+	"onConsume": {
+		"prefix": ["~onConsume"],
+		"body": ["~onConsume"]
+	},
+	"onCrouch": {
+		"prefix": ["~onCrouch"],
+		"body": ["~onCrouch"]
+	},
+	"onUnCrouch": {
+		"prefix": ["~onUnCrouch"],
+		"body": ["~onUnCrouch"]
+	},
+	"onEquip": {
+		"prefix": ["~onEquip"],
+		"body": ["~onEquip"]
+	},
+	"onUnEquip": {
+		"prefix": ["~onUnEquip"],
+		"body": ["~onUnEquip"]
+	},
+	"onBowHit": {
+		"prefix": ["~onBowHit"],
+		"body": ["~onBowHit"]
+	},
+	"onPotionSplash": {
+		"prefix": ["~onPotionSplash"],
+		"body": ["~onPotionSplash"]
+	},
+	"onRightClick": {
+		"prefix": ["~onRightClick"],
+		"body": ["~onRightClick"]
+	},
+	"onSwing": {
+		"prefix": ["~onSwing"],
+		"body": ["~onSwing"]
+	},
+	"onUse": {
+		"prefix": ["~onUse"],
+		"body": ["~onUse"]
+	},
+	"onFish": {
+		"prefix": ["~onFish"],
+		"body": ["~onFish"]
+	},
+	"onFishBite": {
+		"prefix": ["~onFishBite"],
+		"body": ["~onFishBite"]
+	},
+	"onFishCatch": {
+		"prefix": ["~onFishCatch"],
+		"body": ["~onFishCatch"]
+	},
+	"onFishGrab": {
+		"prefix": ["~onFishGrab"],
+		"body": ["~onFishGrab"]
+	},
+	"onFishGround": {
+		"prefix": ["~onFishGround"],
+		"body": ["~onFishGround"]
+	},
+	"onFishingReel": {
+		"prefix": ["~onFishingReel"],
+		"body": ["~onFishingReel"]
+	},
+	"onFishingFail": {
+		"prefix": ["~onFishingFail"],
+		"body": ["~onFishingFail"]
+	},
+	"onPressQ": {
+		"prefix": ["~onPressQ"],
+		"body": ["~onPressQ"]
+	},
+	"onPressCtrlQ": {
+		"prefix": ["~onPressCtrlQ"],
+		"body": ["~onPressCtrlQ"]
+	},
+	"onPressF": {
+		"prefix": ["~onPressF"],
+		"body": ["~onPressF"]
+	}
+}

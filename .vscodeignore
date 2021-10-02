@@ -1,0 +1,5 @@
+generator/**
+.vscode/**
+.vscode-test/**
+.gitignore
+.gitmodules

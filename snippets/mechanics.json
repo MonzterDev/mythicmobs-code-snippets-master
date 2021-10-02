@@ -1,0 +1,10 @@
+{
+	"activatespawner": {
+		"prefix": ["- activatespawner", "activatespawner"],
+		"body": ["- activatespawner{spawner=${1:Spawner Name}} @$2 ~$3"]
+	},
+	"damage": {
+		"prefix": ["- damage", "damage"],
+		"body": ["- damage{amount=${1:number}${2|;ignoreArmor=true,;ignoreArmor=false, |}${3|;preventknockback=true,;preventknockback=false, |}} @$4 ~$5"]
+	}
+}

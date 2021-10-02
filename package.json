@@ -1,0 +1,43 @@
+{
+    "name": "mythicmobs-code-snippets",
+    "displayName": "MythicMobs Code Snippets",
+    "description": "Code snippets for easy mob creation with MythicMobs Spigot Plugin",
+    "version": "1.0.0",
+    "icon": "assets/icon.jpg",
+    "galleryBanner": {
+        "color": "#3F51B5",
+        "theme": "dark"
+    },
+    "author": "Monzter",
+    "publisher": "Monzter",
+    "license": "GPLv3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BetonQuest/betonquest-code-snippets/"
+    },
+    "bugs": {
+        "url": "https://github.com/BetonQuest/betonquest-code-snippets/issues"
+    },
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/mechanics.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/targeters.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/triggers.json"
+            }
+        ]
+    }
+}

@@ -10,7 +10,7 @@
       </a>
 </p>
 
-[DOWNLOAD](https://marketplace.visualstudio.com/items?itemName=Monzter.mythicmobs-code-snippets){: .btn}
+<button type="button" name="button" class="btn"> <a href="https://marketplace.visualstudio.com/items?itemName=Monzter.mythicmobs-code-snippets">DOWNLOAD </a> </button>
 
 **Code snippets version [`1.0.3`](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
 

@@ -11,7 +11,7 @@
 </p>
 
 
-**Code snippets version [`1.0.1](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
+**Code snippets version [`1.0.1`](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
 
 This extension simplifies the process of creating MythicMobs by providing code snippets for all Mechanics, Conditions, Targeters, and Triggers.  
 

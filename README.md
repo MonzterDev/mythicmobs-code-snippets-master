@@ -28,14 +28,14 @@ Upon typing `-` you will see all avaible mechanic and can select any of them.
 For this example lets use `damage`! Upon selecting damage, the entire mechanic will be written out, with highlighted areas of the mechanic.
 The highlighted areas are ones which you can either fill in or select an option to fill in.
 
-The first highlighted area is `number`, directly after the word "amount=" which indicates you should type out a number.
-Once you type in a number, hit TAB to go to the next highlighted area.
-Next highlighted is `;ignoreArmor=true`, which is has multiple choices because it's a TRUE or FALSE option. This actually has 3 choices to choose from `;ignoreArmor=true`, `;ignoreArmor=false`, or ` `.
-You can then use your Arrow Keys to select one of the three option.
-Upon selecting an option you can then hit TAB to go to the next highlighted area. (NOTE: If you select the ` ` option, then hit BACKSPACE, so a blank space isn't left there! This is an unfortunate limitation of VSCode's snippets.)
-The final option for this mechanic is `preventknockback=true` which you can once again choose from three options. Upon selecting the option, hit TAB to go to the next highlighted area.
-The next highlighted area is `@` which indicates your Targetter. You can begin typing out the Targetter OR use CTRL+SPACE which will display every Targetter.
-Once you select the Targetter, then hit TAB again, which you'll then finally be at the Trigger section `~` and repeat the exact same process as Targetter.
+1. The first highlighted area is `number`, directly after the word "amount=" which indicates you should type out a number.
+2. Once you type in a number, hit TAB to go to the next highlighted area.
+3. Next highlighted is `;ignoreArmor=true`, which is has multiple choices because it's a TRUE or FALSE option. This actually has 3 choices to choose from `;ignoreArmor=true`, `;ignoreArmor=false`, or ` `.
+4. You can then use your Arrow Keys to select one of the three option.
+5. Upon selecting an option you can then hit TAB to go to the next highlighted area. (NOTE: If you select the ` ` option, then hit BACKSPACE, so a blank space isn't left there! This is an unfortunate limitation of VSCode's snippets.)
+6. The final option for this mechanic is `preventknockback=true` which you can once again choose from three options. Upon selecting the option, hit TAB to go to the next highlighted area.
+7. The next highlighted area is `@` which indicates your Targetter. You can begin typing out the Targetter OR use CTRL+SPACE which will display every Targetter.
+8. Once you select the Targetter, then hit TAB again, which you'll then finally be at the Trigger section `~` and repeat the exact same process as Targetter.
 
 ## Release Notes
 

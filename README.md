@@ -14,6 +14,10 @@
 
 This extension simplifies the process of creating MythicMobs by providing code snippets for all Mechanics, Conditions, Targeters, and Triggers.  
 
+## Credit
+
+Based on [betonquest-code-snippets](https://github.com/BetonQuest/betonquest-code-snippets)
+
 ## Features
 
 * **Tab competition for all Mechanics(Soon), Conditions(Soon), Targeters, and Triggers**

@@ -12,7 +12,7 @@
 
 <button type="button" name="button" class="btn"> <a href="https://marketplace.visualstudio.com/items?itemName=Monzter.mythicmobs-code-snippets">DOWNLOAD </a> </button>
 
-**Code snippets version [`1.0.3`](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
+**Code snippets version [`1.0.4`](https://github.com/Dancull47/mythicmobs-code-snippets-master/)**
 
 This extension simplifies the process of creating MythicMobs by providing code snippets for all Mechanics, Conditions, Targeters, and Triggers.  
 
@@ -26,7 +26,7 @@ Report new Issues [here](https://github.com/joblo2213/MythicMobs-code-snippets/i
 
 ## Release Notes
 
-### 1.0.3
+### 1.0.4
 
 Updated links.
 
